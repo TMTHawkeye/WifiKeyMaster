@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/_5sdp">
+
+    <LinearLayout
+        android:foreground="?android:attr/selectableItemBackground"
+        android:layout_marginTop="@dimen/_2sdp"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_60sdp"
+        android:layout_marginStart="@dimen/_10sdp"
+        android:background="@drawable/card_shade_2"
+        android:orientation="horizontal"
+        app:cardCornerRadius="@dimen/_15sdp">
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="@dimen/_60sdp"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/fileNameTV"
+                style="@style/title_style"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toLeftOf="@+id/moreOptions"
+                android:layout_toRightOf="@+id/cardViewIcon"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:text="Wifi Name"
+                android:textSize="@dimen/_12sdp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:id="@+id/status"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textColor="@color/dark_gray" />
+
+
+        </LinearLayout>
+
+        <ImageView
+            android:foreground="?android:attr/selectableItemBackground"
+            android:id="@+id/edit_pass_id"
+            android:layout_width="@dimen/_30sdp"
+            android:layout_height="@dimen/_30sdp"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center_vertical"
+            android:layout_marginVertical="@dimen/_5sdp"
+            android:padding="9dp"
+            android:src="@drawable/edit_pass_svg" />
+
+        <ImageView
+            android:foreground="?android:attr/selectableItemBackground"
+            android:id="@+id/delete_id"
+            android:layout_width="@dimen/_30sdp"
+            android:layout_height="@dimen/_30sdp"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center_vertical"
+            android:layout_marginVertical="@dimen/_5sdp"
+            android:padding="9dp"
+            android:src="@drawable/delete_svg"/>
+    </LinearLayout>
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardViewIcon"
+        android:layout_width="@dimen/_55sdp"
+        android:layout_height="@dimen/_55sdp"
+        android:backgroundTint="@color/purple"
+        app:cardCornerRadius="300dp"
+        app:cardElevation="5dp">
+
+        <ImageView
+            android:id="@+id/wifiIcon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="15dp"/>
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>

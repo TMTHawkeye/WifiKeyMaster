@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Wifi Key Master</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="home">Home</string>
+    <string name="savePass">Saved Password</string>
+    <string name="empty_value">empty</string>
+    <string name="backPress_content">We work super hard to serve you  better\nand would love to know how would you\nrate our app?</string>
+
+    <string name="qrcode">Wifi QR Code</string>
+</resources>

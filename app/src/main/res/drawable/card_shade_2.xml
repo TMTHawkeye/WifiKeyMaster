@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item>
+        <shape>
+            <padding
+                android:bottom="@dimen/_1sdp"
+                android:left="@dimen/_1sdp"
+                android:right="@dimen/_1sdp"
+                android:top="0dp" />
+            <solid android:color="#05443939"  />
+            <corners
+                android:topRightRadius="@dimen/_15sdp"
+                android:bottomRightRadius="@dimen/_15sdp"
+                android:topLeftRadius="@dimen/_15sdp"
+                android:bottomLeftRadius="@dimen/_15sdp"/>
+        </shape>
+    </item>
+
+    <item>
+        <shape>
+            <padding
+                android:bottom="@dimen/_1sdp"
+                android:left="@dimen/_1sdp"
+                android:right="@dimen/_1sdp"
+                android:top="0dp" />
+            <solid android:color="#06443939"  />
+            <corners
+                android:topRightRadius="@dimen/_15sdp"
+                android:bottomRightRadius="@dimen/_15sdp"
+                android:topLeftRadius="@dimen/_15sdp"
+                android:bottomLeftRadius="@dimen/_15sdp"/>
+        </shape>
+    </item>
+    <item>
+        <shape>
+            <padding
+                android:bottom="@dimen/_1sdp"
+                android:left="@dimen/_1sdp"
+                android:right="@dimen/_1sdp"
+                android:top="0dp" />
+            <solid android:color="#07443939"  />
+            <corners
+                android:topRightRadius="@dimen/_15sdp"
+                android:bottomRightRadius="@dimen/_15sdp"
+                android:topLeftRadius="@dimen/_15sdp"
+                android:bottomLeftRadius="@dimen/_15sdp"/>
+        </shape>
+    </item>
+    <item>
+        <shape>
+            <padding
+                android:bottom="@dimen/_1sdp"
+                android:left="@dimen/_1sdp"
+                android:right="@dimen/_1sdp"
+                android:top="0dp" />
+            <solid android:color="#08443939"  />
+            <corners
+                android:topRightRadius="@dimen/_15sdp"
+                android:bottomRightRadius="@dimen/_15sdp"
+                android:topLeftRadius="@dimen/_15sdp"
+                android:bottomLeftRadius="@dimen/_15sdp"/>
+        </shape>
+    </item>
+    <item>
+        <shape>
+            <padding
+                android:bottom="@dimen/_1sdp"
+                android:left="@dimen/_1sdp"
+                android:right="@dimen/_1sdp"
+                android:top="0dp" />
+            <solid android:color="#09443939"  />
+            <corners
+                android:topRightRadius="@dimen/_15sdp"
+                android:bottomRightRadius="@dimen/_15sdp"
+                android:topLeftRadius="@dimen/_15sdp"
+                android:bottomLeftRadius="@dimen/_15sdp"/>
+        </shape>
+    </item>
+    <item>
+        <shape>
+            <padding
+                android:bottom="@dimen/_1sdp"
+                android:left="@dimen/_1sdp"
+                android:right="@dimen/_1sdp"
+                android:top="0dp" />
+            <solid android:color="#10443939"  />
+            <corners
+                android:topRightRadius="@dimen/_15sdp"
+                android:bottomRightRadius="@dimen/_15sdp"
+                android:topLeftRadius="@dimen/_15sdp"
+                android:bottomLeftRadius="@dimen/_15sdp"/>
+        </shape>
+    </item>
+    <item>
+        <shape>
+            <padding
+                android:bottom="@dimen/_1sdp"
+                android:left="@dimen/_1sdp"
+                android:right="@dimen/_1sdp"
+                android:top="0dp" />
+            <solid android:color="#11443939"  />
+            <corners
+                android:topRightRadius="@dimen/_15sdp"
+                android:bottomRightRadius="@dimen/_15sdp"
+                android:topLeftRadius="@dimen/_15sdp"
+                android:bottomLeftRadius="@dimen/_15sdp"/>
+        </shape>
+    </item>
+
+    <item>
+        <shape>
+            <padding
+                android:bottom="@dimen/_1sdp"
+                android:left="@dimen/_1sdp"
+                android:right="@dimen/_1sdp"
+                android:top="0dp" />
+            <solid android:color="#12443939"  />
+            <corners
+                android:topRightRadius="@dimen/_15sdp"
+                android:bottomRightRadius="@dimen/_15sdp"
+                android:topLeftRadius="@dimen/_15sdp"
+                android:bottomLeftRadius="@dimen/_15sdp"/>
+        </shape>
+    </item>
+
+    <item>
+        <shape>
+            <padding
+                android:bottom="4dp"
+                android:right="4dp"
+                android:left="4dp"
+                android:top="4dp"/>
+
+            <solid android:color="@color/color_gray" />
+            <corners
+                android:topRightRadius="@dimen/_15sdp"
+                android:bottomRightRadius="@dimen/_15sdp"
+                android:topLeftRadius="@dimen/_15sdp"
+                android:bottomLeftRadius="@dimen/_15sdp"/>
+        </shape>
+    </item>
+</layer-list>

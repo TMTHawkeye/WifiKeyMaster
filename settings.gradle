@@ -1,0 +1,30 @@
+pluginManagement {
+
+    repositories {
+        gradlePluginPortal()
+        google()
+        mavenCentral()
+        maven { url 'https://jitpack.io' }
+
+        jcenter()
+
+    }
+
+}
+dependencyResolutionManagement {
+
+    repositories {
+        google()
+        mavenCentral()
+        maven { url 'https://jitpack.io' }
+
+        jcenter()
+
+    }
+
+}
+
+rootProject.name = "WifiKeyMaster"
+include ':app'
+include ':custombottomnavigation'
+include ':lib'

@@ -1,0 +1,150 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+    <item>
+        <shape>
+            <padding
+                android:bottom="1dp"
+                android:left="1dp"
+                android:right="1dp"
+                android:top="1dp" />
+            <solid android:color="#408758E7"  />
+            <corners
+                android:topRightRadius="@dimen/_20sdp"
+                android:bottomRightRadius="@dimen/_20sdp"
+                android:topLeftRadius="@dimen/_20sdp"
+                android:bottomLeftRadius="@dimen/_20sdp"/>
+        </shape>
+    </item>
+
+    <item>
+        <shape>
+            <padding
+                android:bottom="1dp"
+                android:left="1dp"
+                android:right="1dp"
+                android:top="1dp" />
+            <solid android:color="#458758E7"  />
+            <corners
+                android:topRightRadius="@dimen/_20sdp"
+                android:bottomRightRadius="@dimen/_20sdp"
+                android:topLeftRadius="@dimen/_20sdp"
+                android:bottomLeftRadius="@dimen/_20sdp"/>
+        </shape>
+    </item>
+    <item>
+        <shape>
+            <padding
+                android:bottom="1dp"
+                android:left="1dp"
+                android:right="1dp"
+                android:top="1dp" />
+            <solid android:color="#488758E7"  />
+            <corners
+                android:topRightRadius="@dimen/_20sdp"
+                android:bottomRightRadius="@dimen/_20sdp"
+                android:topLeftRadius="@dimen/_20sdp"
+                android:bottomLeftRadius="@dimen/_20sdp"/>
+        </shape>
+    </item>
+
+    <item>
+        <shape>
+            <padding
+                android:bottom="1dp"
+                android:left="1dp"
+                android:right="1dp"
+                android:top="1dp" />
+            <solid android:color="#508758E7"  />
+            <corners
+                android:topRightRadius="@dimen/_20sdp"
+                android:bottomRightRadius="@dimen/_20sdp"
+                android:topLeftRadius="@dimen/_20sdp"
+                android:bottomLeftRadius="@dimen/_20sdp"/>
+        </shape>
+    </item>
+
+
+
+    <!-- background color -->
+    <item>
+        <shape android:shape="rectangle">
+            <gradient
+                android:angle="90"
+                android:centerColor="#95FFFFFF"
+                android:endColor="#FFFFFF"
+                android:startColor="#FFFFFF" />
+            <corners
+                android:topRightRadius="@dimen/_20sdp"
+                android:bottomRightRadius="@dimen/_20sdp"
+                android:topLeftRadius="@dimen/_20sdp"
+                android:bottomLeftRadius="@dimen/_20sdp"/>
+        </shape>
+    </item>
+    <!--  left shadow -->
+    <item>
+        <shape android:shape="rectangle">
+            <gradient
+                android:angle="180"
+                android:centerColor="#95FFFFFF"
+                android:endColor="#30BFA0FF"
+                android:startColor="#25BFA0FF"  />
+            <corners
+                android:topRightRadius="@dimen/_20sdp"
+                android:bottomRightRadius="@dimen/_20sdp"
+                android:topLeftRadius="@dimen/_20sdp"
+                android:bottomLeftRadius="@dimen/_20sdp"/>
+        </shape>
+    </item>
+    <!--  right shadow -->
+    <item>
+        <shape android:shape="rectangle">
+            <gradient
+                android:angle="180"
+                android:centerColor="#95FFFFFF"
+                android:endColor="#30BFA0FF"
+                android:startColor="#25BFA0FF" />
+            <corners
+                android:topRightRadius="@dimen/_20sdp"
+                android:bottomRightRadius="@dimen/_20sdp"
+                android:topLeftRadius="@dimen/_20sdp"
+                android:bottomLeftRadius="@dimen/_20sdp"/>
+        </shape>
+    </item>
+    <!--  top shadow -->
+    <item>
+        <shape android:shape="rectangle">
+            <gradient
+                android:angle="90"
+                android:centerColor="#95FFFFFF"
+                android:centerY="0.2"
+                android:centerX="0.2"
+                android:endColor="#30BFA0FF"
+                android:startColor="#25BFA0FF"   />
+            <corners
+                android:topRightRadius="@dimen/_20sdp"
+                android:bottomRightRadius="@dimen/_20sdp"
+                android:topLeftRadius="@dimen/_20sdp"
+                android:bottomLeftRadius="@dimen/_20sdp"/>
+        </shape>
+    </item>
+
+    <!--  bottom shadow -->
+    <item>
+        <shape android:shape="rectangle">
+            <gradient
+                android:angle="90"
+                android:centerColor="#95FFFFFF"
+                android:endColor="#30BFA0FF"
+                android:startColor="#25BFA0FF" />
+            <corners
+                android:topRightRadius="@dimen/_20sdp"
+                android:bottomRightRadius="@dimen/_20sdp"
+                android:topLeftRadius="@dimen/_20sdp"
+                android:bottomLeftRadius="@dimen/_20sdp"
+                />
+        </shape>
+    </item>
+
+</layer-list>
